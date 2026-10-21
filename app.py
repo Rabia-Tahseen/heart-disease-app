@@ -26,6 +26,7 @@ model = load_model()
 st.title("❤️ Heart Disease Prediction System")
 st.write("Enter the patient details below. A Support Vector Classifier trained on the "
          "UCI Heart Disease (Cleveland) dataset predicts whether heart disease is likely.")
+st.markdown("*Model accuracy on held-out test data: **70%** (303-row UCI Cleveland dataset).*")
 st.divider()
 
 col1, col2 = st.columns(2)
