@@ -51,4 +51,6 @@ if st.button("Predict", type="primary", use_container_width=True):
     with st.expander("See the encoded feature vector sent to the model"):
         st.dataframe(x, hide_index=True)
 
-st.caption("Educational demo only - not medical advice.")
+st.caption("Built for educational purposes from the 303-row UCI Heart Disease (Cleveland) dataset, "
+              "using only 4 input attributes (Age, Sex, Chest Pain Type, Exercise-Induced Angina). "
+              "Not medical advice.")
